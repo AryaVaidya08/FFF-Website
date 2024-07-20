@@ -36,7 +36,7 @@ export default function JoinPage() {
                             taken="0"
                             total_spots="2"
                             extra_letter="s"
-                            description="Fresh Future Foundation is looking for an applicant who is knowledgeable in multiple Social media apps. This role is for those who are able to create content and awareness to advocate for our organization’s goal."
+                            description="Fresh Future Foundation is looking for an applicant who is knowledgeable in multiple Social media apps. This role is for those who are able to create content and awareness to advocate for our organization's goal."
                         />
                         <div className="linebreak"></div>
                         <InternshipOpporunity 
