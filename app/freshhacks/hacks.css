@@ -1,0 +1,7 @@
+.hacks-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+    text-align: center;
+}
