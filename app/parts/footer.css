@@ -16,15 +16,24 @@
 }
 
 .pages {
-    padding-right: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
 .pageColumn {
-    width: 100px;
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pageLink {

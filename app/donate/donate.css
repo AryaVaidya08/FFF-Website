@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 80px;
     padding-bottom: 20px;
 }
 
@@ -24,6 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 45%;
 }
 
 .donate-title {
@@ -34,7 +35,7 @@
 
 .title-disc {
     font-size: 23px;
-    width: 400px;
+    width: 500px;
 }
 
 .donation-methods {
@@ -76,6 +77,11 @@
     align-items: center;
     justify-content: baseline;
     border-radius: 10px;
+    text-decoration: none;
+}
+
+a.method-box:visited {
+    color: black;
 }
 
 .lineBreak {
