@@ -9,22 +9,27 @@ export default function LandingPage() {
             <Header />
             <section className="landing-content">
                 <div className="main-welcome">
-                    <div className="thingy">
                         <div>
-                            <p className="welcomeText redhat-bold top-text">No One Wants&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                            <p className="welcomeText bottom-text redhat-bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To Be In Need.</p>
+                            <div className="titleTextRow">
+                                <p className="welcomeText redhat-semibold top-text">No One&nbsp;</p>
+                                <p className="welcomeText redhat-bold top-text">Deserves</p>
+                            </div>
+                            <div className="titleTextRow">
+                                <p className="welcomeText bottom-text redhat-semibold">To Be In&nbsp;</p>
+                                <p className="welcomeText bottom-text redhat-black">Need.</p>
+                            </div>
                         </div>
+                        <p className="welcomeDisc redhat-medium">Help provide water for underprivilied people all over the world.</p>
                         <div id="thing2">
                             <Link href="about"><button className="welcome-buttons manrope-semibold learnmore">Learn More</button></Link>
                             <Link href="donate"><button className="welcome-buttons manrope-semibold donate-button">Donate Now</button></Link>
                         </div>
-                    </div>
                 </div>
                 <div className="our-mission">
                     <img className="blankImg" src="images/water-mission.jpg" style={{height: 300, width: 500}} />
                     <div className="misson-text">
-                        <h1 id="missionTitle" className="redhat-semibold">Our Mission</h1>
-                        <p id="normalLandText" className="manrope-regular">About 11% of the world's total population doesn't have access to improved water sources. If we can help even just one person to have better access to safe drinking water, that's already a step in the right direction, and we only need to keep going. Our plan is to aid poorer areas, specifically small villages in India with more inaccessible or contaminated water. We also hope to support companies and organizations, which focus on helping these areas, as well as donating supplies. Funds and resources donated to us will be sent to various organizations in the areas we aim to help to facilitate water purification and other necessities for the basic livelihoods of the people.</p>
+                        <h1 id="missionTitle" className="redhat-bold">Our Mission</h1>
+                        <p id="normalLandText" className="manrope-regular">About 11% of the world's population lacks access to improved water sources. Helping even one person to access safe drinking water is a step in the right direction. Our plan focuses on aiding small villages in India with inaccessible or contaminated water. We aim to support organizations working in these areas and provide supplies. Donations will fund water purification and essential resources for the people.</p>
                     </div>
                 </div>
                 <div className="buzzwords">

@@ -12,8 +12,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 275px;
-    width: 80%;
+    height: 400px;
+    width: 90%;
     justify-content: space-evenly;
 }
 
@@ -22,13 +22,11 @@
     margin-bottom: 0px;
 }
 
-
 .storyStartEnd {
     text-align: center;
     padding-left: 125px;
     padding-right: 125px;
     font-size: 23px;
-    
 }
 
 .end-text {
@@ -37,11 +35,21 @@
     font-size: 20px;
 }
 
-
 .storyText {
     text-align: center;
-    font-size: 16px;
-    width: 50%
+    font-size: 16.5px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-self: center;
+    width: 600px;
+}
+.cloudText {
+    align-content: center;
+    height: 80%;
+    margin-left: 60px;
+    margin-right: 55px;
 }
 
 .blankImg {
@@ -49,12 +57,15 @@
     background-size: 250px 400px;
     height: 250px;
     width: 400px;
-    margin-top: 20px;
     background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 24px;
+}
+
+.top-margin {
+    margin-top: 20px;
 }
 
 .break-line {
@@ -83,12 +94,14 @@
     align-items: center;
     height: 90%;
     width: 250px;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(247, 247, 247);
     border-radius: 15px;
-    border: 1.5px;
+    border: 1px;
     border-style: solid;
-    border-color: rgb(196, 196, 196);
+    border-color: rgb(40, 84, 141);
 }
+
+
 
 .person-name {
     margin-top: 7px;
@@ -106,6 +119,10 @@
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 0px;
+}
+
+.smaller-name {
+    font-size: 25px;
 }
 
 
@@ -164,4 +181,34 @@
     background-size: 175px 175px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.cloud-1 {
+    background-image: url("../../public/images/Cloud1.png");
+    height: calc(600px * 0.596595);
+}
+
+.cloud-2 {
+    background-image: url("../../public/images/Cloud2.png");
+    height: calc(600px * 0.63016);
+}
+
+.cloud-3 {
+    background-image: url("../../public/images/Cloud3.png");
+    height: calc(600px * 0.5449475);
+}
+
+.cloud-4 {
+    background-image: url("../../public/images/Cloud4.png");
+    height: calc(600px * 0.75064);
+}
+
+.cloud-5 {
+    background-image: url("../../public/images/Cloud5.png");
+    height: calc(600px * 0.6625275);
+}
+
+.cloud-6 {
+    background-image: url("../../public/images/Cloud6.png");
+    height: calc(600px * 0.6083475);
 }
